@@ -18,6 +18,8 @@ public class Main {
         System.out.println("Array Output:");
         for (int i = 0; i < size; i++) {
             System.out.print(arr[i] + " "); // Print in the same line with a space
+            //System.out.println("Array Output: " + Arrays.toString(arr));
+
         }
 
         sc.close(); // Close scanner

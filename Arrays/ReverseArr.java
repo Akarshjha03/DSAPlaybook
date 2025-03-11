@@ -23,3 +23,27 @@ public class Main {
         }
     }
 }
+
+/*Breaking it Down
+Let’s assume we have this array:
+
+int arr[] = {10, 20, 30, 40, 50};
+
+Array index positions:
+Index:   0   1   2   3   4
+Value:  10  20  30  40  50
+
+The length of the array (n) is 5.
+Iteration-wise Explanation of n - i - 1
+
+i (Loop Counter)	n - i - 1 (Reverse Index)	arr[n - i - 1] (Original Array Value)	Stored in revarr[i]
+0	5 - 0 - 1 = 4	arr[4] = 50	revarr[0] = 50
+1	5 - 1 - 1 = 3	arr[3] = 40	revarr[1] = 40
+2	5 - 2 - 1 = 2	arr[2] = 30	revarr[2] = 30
+3	5 - 3 - 1 = 1	arr[1] = 20	revarr[3] = 20
+4	5 - 4 - 1 = 0	arr[0] = 10	revarr[4] = 10
+
+Final Reversed Array:
+revarr = {50, 40, 30, 20, 10};
+
+So, n - i - 1 effectively accesses the elements in reverse order.*/

@@ -1,7 +1,18 @@
 /*Remove Duplicates from a Sorted Array
 Given a sorted array, remove duplicates in-place and return the new length of the array.*/
 
-
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int i = 0;
+        for(int j = 1; j < nums.length; j++){
+            if(nums[i] != nums[j]){
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        return i + 1;
+    }
+}
 
 
 

@@ -1,4 +1,4 @@
-public class Main{
+public class StrcharAt{
     public static void main(String args[]){
         String Name = "AKARSH";
         String Surname = "JHA";

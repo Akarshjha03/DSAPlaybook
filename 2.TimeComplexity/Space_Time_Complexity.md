@@ -16,6 +16,10 @@ Time complexity describes **how the runtime of an algorithm grows** as the input
 | O(2ⁿ) | Exponential Time | Recursive Fibonacci |
 | O(n!) | Factorial Time | Permutations/Combinations |
 
+## Graph
+![Time Complexity Graph](https://github.com/Akarshjha03/DSAPlaybook/raw/main/2.TimeComplexity/Time-Complexity%20graph.jpg)
+
+
 ### ⏱ Worst, Best, and Average Case
 
 - **Worst Case (Big O):** Maximum time taken

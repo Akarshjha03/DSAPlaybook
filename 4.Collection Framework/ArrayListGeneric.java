@@ -1,3 +1,4 @@
+//Generic - Specific type
 import java.util.*;
 public class ArrayListGeneric{
     public static void main(String args[]){
